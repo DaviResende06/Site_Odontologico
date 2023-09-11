@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300&family=Lobster&family=Noto+Sans+Osmanya&family=Oswald:wght@200;300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body{
+        font-family:'Roboto', sans-serif;
+    }
+
+.navbar{
+    display: flex;
+    height: 100px;
+}
+ 
+.logo{
+    color: rgb(219, 97, 209);
+    padding: 20px;
+    flex: 20%;
+    margin-left: 10%;
+    text-align: right;
+    font-size: 39px;
+    text-shadow: 5px 3px 4px rgb(122, 116, 122);
+}
+
+.logo:hover{
+    cursor:context-menu;
+}
+
+.menu{
+    flex: 65%;
+    margin-right: 5%;
+    text-align: right;
+    padding: 40px;
+}
+
+.menu img:hover{
+    cursor:pointer;
+}
+
+.header{
+    margin-top: 15px;
+    height: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    border-top: 4px solid rgb(219, 97, 209);
+}
+
+.img-headline{
+    margin-top: 25px;
+    flex:40%;
+    margin-right: 10%;
+}
+
+
+.headline{
+    margin-top: 25px;
+    flex: 40%;
+    margin-left: 10%;
+    text-align: center;
+    padding: 50px;
+    color: #083096;
+    cursor: context-menu;
+}
+
+.headline h2{
+    font-size: 35px;
+}
+
+.headline p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color:rgb(2, 25, 155);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;   
+}
+
+.headline a{
+    padding: 10px;
+    background-color: #6ac6a1;
+    text-decoration: none;
+    border: 1px solid rgb(2, 25, 155);
+    border-radius: 12px;
+    font-size: 20px;
+    color: rgb(2, 25, 155);
+}
+
+.headline a:hover{
+    background-color: #229765;
+    color: white;
+    border: 2px solid rgb(2, 25, 155);
+}
+
+section{
+    height: 300px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 15px;
+    cursor: context-menu;
+    flex-flow: row wrap;
+}
+
+section h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: rgb(219, 97, 209);
+    text-shadow: 2px 2px 2px rgb(122, 116, 122);
+    border-bottom: 1px solid rgb(219, 97, 209);
+
+}
+section h2:hover{
+    cursor:context-menu;
+}
+
+.servicos{
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.card{
+    color: rgb(1, 20, 124);
+    display: inline-block;
+    border: 2px solid rgb(219, 97, 209);
+    border-radius: 15px;
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 242, 244);
+}
+
+.card p{
+    margin-top: 20px;
+}
+
+.card h3{
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.card img{
+    margin-left: 40%;
+    color: rgb(219, 97, 209);
+}
+
+.footer{
+    height: 140px;
+    background-color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 15px;
+    border-top:1px solid rgb(219, 97, 209);
+    letter-spacing: 1px;
+}
